@@ -139,6 +139,7 @@ body{
 
  .screen-mockup{
      max-width:100%;
+     /* box-shadow: 10px 10px 20px #bec6ce; */
      
  }
 
@@ -379,7 +380,8 @@ body{
  /* Newsletter */
 
  .newletter{
-     margin-top: -4rem;  
+     margin-top: -4rem; 
+     margin-left: 3rem; 
  }
 
  .newsletter-heading{
@@ -421,6 +423,165 @@ body{
      background-color: var(--Light-Pink);
  }
 
+
+ /* Media Queries */
+
+ @media only screen and (max-width: 600px){
+
+    .nav{
+        display: flex;
+
+        justify-content: ;
+    }
+
+    .logo-img{
+        max-width: 80%;
+    }
+
+    .btn-try{
+        font-size: .7rem;
+        padding-left: .5rem;
+        padding-right: 1rem;
+        padding-top: .001rem;
+        padding-bottom: .001rem;
+        text-align: center;
+        font-weight: 700;
+        font-size: .7rem;        
+    }
+    
+    .intro{
+         margin-left: 1rem;
+         margin-right: 1rem;
+     }
+
+    .intro-head{
+         font-size: 1rem;
+     }
+
+    .intro-para{
+         margin-left: 1.5rem;
+         margin-right: 1.5rem;
+         font-size: .7rem;
+     }
+
+    .intro-start{
+         padding-left: 2rem;
+         padding-right: 2rem;
+     }
+
+    .stats-digit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-community{
+        margin-bottom: 4rem;
+    }
+
+    .stats-community-icon,.stats-messages-icon{
+        width:30px;
+    }
+
+    .stats-community-data, .stats-messages-data{
+        font-size: 3rem;
+    }
+
+    .stats-community-label,.stats-messages-label{
+        font-size: .9rem;
+        display: flex;
+        justify-content: center;       
+    }
+
+    .grow,.users{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .container-one,.container-two,.container-three{
+        width: 250px;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .grow-message,.conversation-message,.users-message{
+        width: 250px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .grow-heading,.conversation-heading,.users-heading{
+        font-size: 1.3rem;
+    }
+
+    .conversation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-started{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .get-started-btn{
+        margin-top: 2rem;
+        font-size: .7rem;
+    }
+
+    /* footer */
+
+    footer{
+        width:100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .newletter{
+        margin-top: .5rem; 
+    }
+
+    .newsletter-heading{
+        font-size: 1.3rem;
+    }
+
+    .newsletter-desc{
+        width:100%;
+        font-size: .7rem;
+        text-align: left;
+    }
+
+    .details{
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: -2.5rem;
+    }
+
+    .footer-logo{
+        margin-top: 2rem;
+    }
+    .details-lorem{
+        width:100%;
+        font-size: .7rem;
+        text-align: left;
+    }
+    .container-icon{
+        width: 20px;
+    }
+
+    .social-icon{
+        display: flex;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+   
+
+    
+ }
 
     
 
